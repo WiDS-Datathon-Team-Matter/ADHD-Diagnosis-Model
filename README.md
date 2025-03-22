@@ -6,7 +6,7 @@
 
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
-| Saloni Jain | @saloni-jain-code | Led EDA and preprocessing, finetuned XGBoost Model |
+| Saloni Jain | [@saloni-jain-code](https://github.com/saloni-jain-code) | Led EDA and preprocessing, finetuned XGBoost Model |
 | Pooja Ginjupalli | @pginjupalli | Developed and fine-tuned Logistic Regression Model |
 | Charlie Nguyen | @CharlieN |  |
 
