@@ -6,7 +6,7 @@
 
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
-| Saloni Jain | @saloni-jain-code |  |
+| Saloni Jain | @saloni-jain-code | Led EDA and preprocessing, finetuned XGBoost Model |
 | Pooja Ginjupalli | @MelRam |  |
 | Charlie Nguyen | @CharlieN |  |
 
@@ -53,15 +53,17 @@ Many young people suffer from ADHD, especially women, and without a proper diagn
 
 ## **📊 Data Exploration**
 
-**Describe:**
+**Dataset used**
+Training and test data provided by WiDS: https://www.kaggle.com/competitions/widsdatathon2025/data
 
-* The dataset(s) used (i.e., the data provided in Kaggle \+ any additional sources)
-* Data exploration and preprocessing approaches
-* Challenges and assumptions when working with the dataset(s)
+**Data exploration / preprocessing**
+We loaded all the excel and csv files into dataframes and looked at the shape of the dataframes, the number of null values for each of the columns, the value counts for each of the categorical variables, and the numerical distribution of all the quantitative variables. We also looked at the correlation between each of the variables and the labels. Lastly, we also looked at the labels and observed class imbalance. 
+To do preprocessing, we one-hot encoded the categorical variables. We then filled in the missing values using the median/mean/kNN imputer. Additionally, to address class imabalance, we attempted to do undersampling.
+
+**Challenges / Assumptions we worked with**
+There were a lot of missing values in both the training and test sets, so we had to figure out the best way to handle them– depending on the column and the type of feature it was, we tried the following strategies: mean imputation, median imputation, and kNN imputation. For the test data, 30 of the rows contained missing values for all of the parent questionnaire columns. Instead of dropping those rows or those columns, we decided to use a kNN imputer to best fill in the data according to the rows that were the most similar.   
 
 **Potential visualizations to include:**
-
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
 
 ---
 
