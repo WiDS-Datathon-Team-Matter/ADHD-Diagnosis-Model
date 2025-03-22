@@ -40,11 +40,14 @@
 
 ## **🏗️ Project Overview**
 
-**Describe:**
+**The Kaggle Competition and Break Through Tech AI**
+The Kaggle Competition was called "WiDS Datathon 2025: Unraveling the Mysteries of the Female Brain: Sex Patterns in ADHD," where we worked to predict ADHD diagnoses in patients and their sex. This was done through Cornell's Break Through Tech AI program where we study Python and machine learning in a collaborative and supportive environment for women. Our Kaggle Competition aligned well with our program, as ADHD is harder to diagnose in females, and when left undiagnosed, ADHD can be a struggle to deal with daily.
 
-* The Kaggle competition and its connection to the Break Through Tech AI Program
-* The objective of the challenge
-* The real-world significance of the problem and the potential impact of your work
+**Challenge Objective**
+We hope that by designing and implementing a machine learning model that can accurately predict a person's sex and their ADHD diagnosis, patients can be correctly diagnosed and learn how to deal with their ADHD. 
+
+**Real-World Significance and Impact**
+Many young people suffer from ADHD, especially women, and without a proper diagnosis, they must continue living their lives unaware of ways or methods to help them get through the day. By properly diagnosing women, they can come to terms with their mental health and learn of better ways to reach their goals without having to unknowingly suffer greatly through ADHD symptoms.
 
 ---
 
