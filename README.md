@@ -1,14 +1,13 @@
 # ADHD-Diagnosis-Model
-# GitHub Kaggle Project README Template
 ---
-
 ### **👥 Team Members**
 
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
-| Saloni Jain | [@saloni-jain-code](https://github.com/saloni-jain-code) | Led EDA and preprocessing, finetuned XGBoost Model |
-| Pooja Ginjupalli | @pginjupalli | Developed and fine-tuned Logistic Regression Model |
-| Charlie Nguyen | @CharlieN |  |
+| Saloni Jain | [@saloni-jain-code](https://github.com/saloni-jain-code) | Led EDA and preprocessing, built and finetuned XGBoost Model |
+| Pooja Ginjupalli | [@pginjupalli](https://github.com/pginjupalli) | Developed and fine-tuned Logistic Regression Model |
+| Tarina Priti | [@Tarina03](https://github.com/Tarina03) | Built CNN model  |
+| Savannah Haugen | [@savhaugen](https://github.com/savhaugen) | Finetuned XGBoost Model|
 
 ---
 
