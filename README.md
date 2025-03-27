@@ -15,25 +15,29 @@
 
 **Example:**
 
-* Built a \[insert model type\] using \[techniques used\] to solve \[Kaggle competition task\]
-* Achieved an F1 score of \[insert score\] and a ranking of \[insert ranking out of participating teams\] on the final Kaggle Leaderboard
-* Used \[explainability tool\] to interpret model decisions
-* Implemented \[data preprocessing method\] to optimize results within compute constraints
+* Built a logistic regression, XGBoost, and CNN model to predict both an individual's sex and their ADHD diagnosis
+* Achieved an F1 score of .51344 and a ranking of 26th on the final Kaggle Leaderboard
+* Implemented one-hot encoding and data cleaning to optimize results within compute constraints
 
-🔗 [Equitable AI for Dermatology | Kaggle Competition Page](https://www.kaggle.com/competitions/bttai-ajl-2025/overview)
+
 🔗 [WiDS Datathon 2025 | Kaggle Competition Page](https://www.kaggle.com/competitions/widsdatathon2025/overview)
 
 ---
 
 ## **👩🏽‍💻 Setup & Execution**
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
 
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+
+**To run our code and produce results:**
+
+1. Click on 'Code' and open with Github desktop
+2. Clone Repository and open with editor of your choice
+3. Install libraries
+4. Go to Kaggle page for WiDS Datathon (linked above)
+5. Navigate to 'Data' tab and download all datasets
+6. Upload datasets to code editor under filename /data
+7. Run code
+
 
 ---
 
