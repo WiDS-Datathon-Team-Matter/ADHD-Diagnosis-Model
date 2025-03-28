@@ -116,7 +116,7 @@ Logistic regression was used as a baseline model. The performance varied based o
 
 ---
 
-### ** CNN**
+### **CNN**
 A convolutional neural network (CNN) was trained, achieving the following results:
 - **Training Accuracy:** **87% - 94%**
 - **Validation Accuracy:** **53% - 60%**
@@ -140,31 +140,42 @@ This model reported an **accuracy of 1.0**.
 
 ## **🖼️ Impact Narrative**
 
-**Answer the relevant questions below based on your competition:**
+### 1️⃣ ADHD and Brain Activity: Key Patterns & Differences
+Our analysis found important brain activity patterns linked to ADHD:
+- **ADHD Patterns:**
+  - Detecting ADHD from brain activity was harder than predicting sex, showing that ADHD markers are more complex.
+  - Logistic regression (without scaling) performed best for ADHD classification (60.2% accuracy), meaning raw data may hold valuable signals.
+  - Neural networks struggled with ADHD classification, likely due to overfitting.
+- **Differences Between Males & Females:**
+  - Sex classification was more accurate (76.9% with scaling), showing clear differences in brain activity between males and females.
+  - Important brain regions for impulse control and emotional regulation were activated differently in males and females.
 
-**WiDS challenge:**
+These findings suggest that ADHD-related brain patterns exist but are harder to capture, while sex-based differences in brain activity are clearer and more distinct.
 
-1. What brain activity patterns are associated with ADHD; are they different between males and females, and, if so, how?
-2. How could your work help contribute to ADHD research and/or clinical care?
+---
 
-**AJL challenge:**
+## 🏥 How This Research Helps ADHD Diagnosis & Treatment
 
-As Dr. Randi mentioned in her challenge overview, “Through poetry, art, and storytelling, you can reach others who might not know enough to understand what’s happening with the machine learning model or data visualizations, but might still be heavily impacted by this kind of work.”
-As you answer the questions below, consider using not only text, but also illustrations, annotated visualizations, poetry, or other creative techniques to make your work accessible to a wider audience.
-Check out [this guide](https://drive.google.com/file/d/1kYKaVNR\_l7Abx2kebs3AdDi6TlPviC3q/view) from the Algorithmic Justice League for inspiration!
+### 2️⃣ How Can This Research Improve ADHD Care?
+Our study can help in several ways:
+- **Better Diagnosis** 📊
+  - Since ADHD detection was difficult, adding behavioral or genetic data might improve accuracy.
+  - Sex-based differences in brain activity could refine how ADHD is diagnosed.
+- **Personalized Treatments** 🎯
+  - Understanding brain activity differences between males and females could help create gender-specific ADHD treatments.
 
-1. What steps did you take to address [model fairness](https://haas.berkeley.edu/wp-content/uploads/What-is-fairness_-EGAL2.pdf)? (e.g., leveraging data augmentation techniques to account for training dataset imbalances; using a validation set to assess model performance across different skin tones)
-2. What broader impact could your work have?
+This work connects AI with real-world clinical needs, paving the way for better ADHD detection and treatment. 🚀
 
 ---
 
 ## **🚀 Next Steps & Future Improvements**
 
-**Address the following:**
 
-* What are some of the limitations of your model?
-* What would you do differently with more time/resources?
-* What additional datasets or techniques would you explore?
+- **Challenges:** ADHD classification had lower accuracy, and neural networks overfit.
+- **Improvements:** Fine-tuning models, using larger datasets, and combining EEG with behavioral data.
+- **Future Work:** Exploring deep learning, diverse datasets, and explainability tools.
+
+By refining these models, we can improve ADHD diagnosis and treatment outcomes. 🚀
 
 ---
 
