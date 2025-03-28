@@ -96,16 +96,45 @@ These visualizations were created for all quantitative and categorical variables
 
 ## **📈 Results & Key Findings**
 
-**Describe (as applicable):**
+## Overview
+This summarizes the performance of different machine learning models trained for classification tasks. The analysis includes key performance metrics, model comparisons, and insights into potential improvements.
 
-* Performance metrics (e.g., Kaggle Leaderboard score, F1-score)
-* How your model performed overall
-* How your model performed across different skin tones (AJL)
-* Insights from evaluating model fairness (AJL)
+---
 
-**Potential visualizations to include:**
+## 🏆 Performance Summary
 
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+### **Logistic Regression Model**
+Logistic regression was used as a baseline model. The performance varied based on preprocessing techniques:
+- **Best Accuracy Scores:**
+  - 0.58 – 0.63 (depending on dataset splits and preprocessing)
+- **With Scaling:**
+  - ADHD Classification Accuracy: **38.9%**
+  - Sex Classification Accuracy: **76.9%**
+- **Without Scaling:**
+  - ADHD Classification Accuracy: **60.2%**
+  - Sex Classification Accuracy: **64.6%**
+
+---
+
+### ** CNN**
+A convolutional neural network (CNN) was trained, achieving the following results:
+- **Training Accuracy:** **87% - 94%**
+- **Validation Accuracy:** **53% - 60%**
+- **Loss Values:**
+  - Training loss decreased significantly from **0.55 to 0.01**, indicating strong learning.
+  - Validation loss fluctuated between **0.70 and 2.49**, suggesting possible overfitting.
+
+💡 *Observations:* The gap between training and validation accuracy indicates overfitting. Techniques like dropout, regularization, or additional data augmentation may help improve generalization.
+
+---
+
+### **XG BOOST**
+This model reported an **accuracy of 1.0**.
+- While this might suggest a perfectly optimized model, it is likely a sign of overfitting or data leakage.
+- A deeper evaluation using a confusion matrix and additional metrics (precision, recall, F1-score) would be necessary to validate the results.
+
+💡 *Next Steps:* Investigate the dataset and model pipeline to ensure proper train-test split and avoid data leakage.
+
 
 ---
 
