@@ -86,11 +86,17 @@ These visualizations were created for all quantitative and categorical variables
 
 ## **🧠 Model Development**
 
-**Describe (as applicable):**
+**Models Used**
 
-* Model(s) used (e.g., CNN with transfer learning, regression models)
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+We created a Logistic Regression Model, an XGBoost model, and a Convolutional Neural Network (CNN).
+
+**Preprocessing**
+
+We used a correlation matrix to analyze the predictiveness of different features. On categorical variables, we did one-hot encoding and on numerical data we used scalers to normalize it. 
+
+**Training Setup and Finetuning**
+
+Our dataset was split into 80% for training and 20% vfor alidation. We used GridSearchCV for finetuning. We evaluated our models based on F1 score, accuracy, and ROC score. We established baseline performance with a simple logistic regression model without any finetuning.
 
 ---
 
